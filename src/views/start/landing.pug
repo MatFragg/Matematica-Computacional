@@ -1,0 +1,19 @@
+extends ../layout/index
+
+block contenido
+        div(class="container mx-auto")
+            div(class="bg-white shadow-md rounded-lg overflow-hidden mt-8")
+                div(class="px-4 py-5 sm:px-6 flex")
+                    div(class="flex")
+                        div(class="md:w-2/3 p-8")
+                            h2(class="text-3xl font-extrabold text-gray-900 mb-4") Introducción
+                            div(class="space-y-4 text-sm text-gray-600")
+                                p El problema del camino más corto (SPP, por sus siglas en inglés Shortest Path Problem), también conocido como problemas de unicriterio, consiste en encontrar el camino de menor longitud entre dos puntos distintos llamados nodos. Se trata de calcular un camino dirigido desde un punto origen a cualquiera al que se denomina punto destino en un grafo establecido. Este tipo de problemas se encuentran más frecuentemente en la vida cotidiana. Por ejemplo, tenemos la situación donde tenemos que enviar algún mensaje o carta , hacer una llamada o llamar a un vehículo; en estos casos siempre tratamos de encontrar la forma más rápida y económica de hacerlo. 
+                                p Para resolver estos problemas se utilizan diferentes algoritmos, que dependiendo de su planteamiento,unos serán más eficientes que otros (Glabowski, et al, como se cita en Álvarez M., 2022). Un algoritmo se define como un conjunto de reglas que se llegan a aplicar para cierto tipo de problemas. Siempre que se nos den unos datos iniciales, se podrán aplicar diferentes algoritmos para encontrar la solución a un problema. En el tema de grafos, por ejemplo, podemos utilizar el algoritmo de Dijkstra.
+                                p En la actualidad, este tipo de problemas se pueden resolver con la ayuda de un ordenador si el número de datos llega a ser muy grande. Para ello se necesita conocer, el algoritmo y saber implementarlo en un ordenador.
+                            button(class="mt-6 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors") Leer más
+
+                        div(class="w-1/3 bg-gray-100 p-8")
+                            h1(class="text-3xl font-extrabold text-gray-800 text-center") Dijkstra
+                            img(src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Edsger_Wybe_Dijkstra.jpg/800px-Edsger_Wybe_Dijkstra.jpg" alt="Edsger Dijkstra" class="w-full h-auto rounded-lg mt-4 shadow-md")
+                            p(class="mt-4 text-sm text-gray-600") Edsger Wybe Dijkstra fue un pionero neerlandés de la ciencia de la computación conocido por sus contribuciones a la teoría de algoritmos.
