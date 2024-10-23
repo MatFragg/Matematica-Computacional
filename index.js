@@ -1,5 +1,5 @@
 import express from 'express'
-import userRoutes from './routes/userRoutes.js' 
+import userRoutes from './src/routes/userRoutes.js' 
 import mime from 'mime';
 
 const app = express();
